@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Enigma Machine</h1>
+    <div class="t">
+        <span class="title"> </span>
+    </div>
+    <h3>Enter PlainText Here</h3>
+    <div class="input"><input type="text" name="plain text" id="input"></div>
+    <div class="radio_buttons">
+        <input type="radio" name="radio" id="radio1" value="1" class="radio" checked>
+        <label for="radio1">Month</label>
+        <input type="radio" name="radio" id="radio2" value="2" class="radio">
+        <label for="radio2">Day</label>
+        <input type="radio" name="radio" id="radio3" value="3" class="radio">
+        <label for="radio3">Hour</label>
+    </div>
+    <div class="buttons">
+        <button onclick="encryption()">Encrypt</button>
+        <button onclick="decryption()">Decrypt</button>
+    </div>
+    <div class="output">
+        <h3>Output</h3>
+        <div class="output_text"><span id="output"></span></div>
+    </div>
+    
+</body>
+</html>

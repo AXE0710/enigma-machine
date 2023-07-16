@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    /* display: flex; */
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    /* animation: encrypto 2s infinite;
+    content: "Enigma Machine"; */
+    
+}
+
+.title::after{
+    content: "Encryption And Decryption";
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(192, 191, 191);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    animation: encrypto 4s;
+    animation-delay: 2s;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.t {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+@keyframes encrypto {
+    0%{
+        content: "3m(4fu@$jc rb? qmfio@810v";
+    }
+    5%{
+        content: "Euceoq*ve5 @nd 23$byf*ve5";
+    }
+    10%{
+        content: "Enhack**** ??? 5YV^@89duh";
+    }
+    15%{
+        content: "Encui&ov7# *** ??bi584792";
+    }
+    20%{
+        content: "Encru66kv6 $$$ 123456789*";
+    }
+    25%{
+        content: "encry7nohg noh 9harryjvke";
+    }
+    30%{
+        content: "encryp7ionn 123 4567890-=";
+    }
+    35%{
+        content: "encrypt#### abc bkdye532x";
+    }
+    40%{
+        content: "encrypti0n kvl 6953@#%$^&*";
+    }
+    45%{
+        content: "encryptiol top hacked####";
+    }
+    50%{
+        content: "encryption opo jut*-*!!!";
+    }
+    55%{
+        content: "encryption a@d nom258000";
+    }
+    60%{
+        content: "encryption an3 opo@@@***";
+    }
+    65%{
+        content: "encryption and 1234567890";
+    }
+    70%{
+        content: "encryption and d8ci###$^&*";
+    }
+    75%{
+        content: "encryption and de@rwp8i0n";
+    }
+    80%{
+        content: "encryption and decryp8i0n";
+    }
+    85%{
+        content: "encryption and decry?1io*";
+    }
+    90%{
+        content: "encryption and decryp8i0n";
+    }
+    95%{
+        content: "encryption and decrypt!0n";
+    }
+    100%{
+        content: "encryption and decryption";
+        animation-delay: 2s;
+    }
+
+
+
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+#input{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    outline: none;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+    color: rgb(192, 192, 192);
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(192, 192, 192);
+    text-decoration: none;
+
+    /* animation: encrypto 2s infinite; */
+}
+h3{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.radio_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* width: 200px; */
+}
+label{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    color: rgb(192, 192, 192);
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(192, 192, 192);
+    text-decoration: none;
+    cursor: pointer;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    /* width: 100%;
+     */
+    flex-direction: column;
+}
+.output_text{
+    width: 70%;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    outline: none;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+    color: rgb(192, 192, 192);
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(192, 192, 192);
+    text-decoration: none;
+    cursor: text;
+    /* margin-top: 10px; */
+    overflow-y: auto;
+    scrollbar-width: thin;
+    word-wrap: break-word;
+    
+    scrollbar-color: rgb(192, 192, 192) rgb(20, 20, 20);
+    float: left;
+
+}
+span{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
